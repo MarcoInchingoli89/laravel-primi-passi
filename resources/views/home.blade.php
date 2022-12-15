@@ -10,6 +10,9 @@
     
     <h1>Hello World</h1>
 
+    <h3>Nome: {{$name}}</h3>
+    <h3>Cognome: {{$surname}}</h3>
+
 
 
 
