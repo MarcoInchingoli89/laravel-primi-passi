@@ -28,5 +28,5 @@ Route::get('/contacts', function () {
 })->name('contacts');
 
 Route::get('/supports', function () {
-    return view('supports', compact('link'));
+    return view('supports');
 })->name('supports');
