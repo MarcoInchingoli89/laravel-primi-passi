@@ -9,7 +9,12 @@
 </head>
 
 <body>
-    <h1>Pagina contatti</h1>
+    <h1>Pagina Contatti</h1>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
 </body>
 
 </html>

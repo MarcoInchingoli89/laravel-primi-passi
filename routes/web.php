@@ -18,9 +18,15 @@ Route::get('/', function () {
 });
 
 Route::get('/contacts', function () {
-    return view('contacts');
+    $contacts = [
+        'name' => 'nome contatto',
+        'address' => 'indirizzo contatto',
+        'mail' => 'mail contatto'
+
+    ];
+    return view('contacts', $contacts);
 })->name('contacts');
 
 Route::get('/supports', function () {
-    return view('supports');
+    return view('supports', compact('link 1', 'link 2'));
 })->name('supports');
